@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.body-background {
+  background-color: #1c3879;
+}
+.body-background .container {
+  margin: 5%;
+}
+.body-background .container .title {
+  text-align: center;
+  color: #eae3d2;
+  margin-bottom: 5%;
+}
+.body-background .container .btn-container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.body-background .container .btn-container #btn {
+  text-align: center;
+  padding: 5px 15px;
+  background-color: #607eaa;
+  color: #eae3d2;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.body-background .container div .result-placeholder {
+  text-align: center;
+  color: #eae3d2;
+  font-size: 35px;
+}
+.body-background .container div #result-title {
+  text-align: center;
+  color: #FA2FB5;
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+.body-background .container div div .text {
+  text-align: center;
+  color: #eae3d2;
+  line-height: 2;
+  padding: 0% 5%;
+}
+.body-background .container div div {
+  margin-top: 5%;
+  text-align: center;
+}
+.body-background .container div div img {
+  border-radius: 20px;
+  width: 50%;
+  border: 2px solid #eae3d2;
+  padding: 6px;
+}/*# sourceMappingURL=main.css.map */

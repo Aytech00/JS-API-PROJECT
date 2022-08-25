@@ -1,0 +1,89 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+// Color scheme
+
+$primary-color: #1c3879;
+$secondary-color: #607eaa;
+$link: #eae3d2;
+$Extra: #FA2FB5;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+// Starting
+
+.body-background {
+  background-color: $primary-color;
+
+  .container {
+    margin: 5%;
+
+    .title {
+      text-align: center;
+      color: $link;
+      margin-bottom: 5%;
+    }
+
+    // .inner-container {
+    //   padding: 2% 5%;
+
+    // }
+
+    .btn-container {
+      text-align: center;
+      margin-bottom: 5%;
+      #btn {
+        text-align: center;
+        padding: 5px 15px;
+        background-color: $secondary-color;
+        color: $link;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+    }
+
+    // .title-container{
+    //   margin-top: 10px;
+    // }
+
+    div {
+
+      .result-placeholder{
+        text-align: center;
+        color: $link;
+        font-size: 35px;
+      }
+      #result-title {
+        text-align: center;
+        color: $Extra;
+        font-size: 25px;
+        margin-bottom: 5%;
+      }
+
+      div {
+        .text {
+          text-align: center;
+          color: $link;
+          line-height: 2;
+          padding: 0% 5%;
+        }
+      }
+
+      div {
+        margin-top: 5%;
+        text-align: center;
+        img {
+          border-radius: 20px;
+          width: 50%;
+          border: 2px solid $link;
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
