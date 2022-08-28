@@ -1,0 +1,22 @@
+{
+  "name": "js-api-project-1",
+  "version": "1.0.0",
+  "description": "Nasa api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aytech00/JS-API-PROJECT.git"
+  },
+  "author": "Aytech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aytech00/JS-API-PROJECT/issues"
+  },
+  "homepage": "https://github.com/Aytech00/JS-API-PROJECT#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

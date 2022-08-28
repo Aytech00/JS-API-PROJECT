@@ -1,0 +1,7 @@
+@mixin mediaquery($mobile) {
+ @if ($mobile == phone){
+    @media only screen and (max-width:900px) 
+    { @content }
+ }
+    
+}

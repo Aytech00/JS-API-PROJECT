@@ -9,8 +9,75 @@
 .body-background {
   background-color: #1c3879;
 }
+.body-background nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 3%;
+  background-color: #607eaa;
+  flex-wrap: wrap;
+}
+.body-background nav div .text-logo {
+  text-decoration: none;
+  font-size: 35px;
+  color: #eae3d2;
+}
+@media only screen and (max-width: 900px) {
+  .body-background nav div .text-logo {
+    font-size: 25px;
+  }
+}
+.body-background nav .list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .body-background nav .list {
+    display: none;
+    width: 100%;
+  }
+}
+.body-background nav .item {
+  margin: 0px 13px;
+  display: inline-block;
+}
+.body-background nav .link {
+  text-decoration: none;
+  color: #eae3d2;
+  font-size: 23px;
+  position: relative;
+  padding: 2px;
+}
+.body-background nav .link::after {
+  content: "";
+  background: #eae3d2;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transition: all 250ms ease-in-out;
+}
+.body-background nav .link:hover::after {
+  width: 100%;
+  left: 0%;
+}
+.body-background nav #icon {
+  color: #eae3d2;
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .body-background nav #icon {
+    display: block;
+    margin-top: 6px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
 .body-background .container {
   margin: 5%;
+  padding: 5% 0%;
 }
 .body-background .container .title {
   text-align: center;
@@ -55,4 +122,12 @@
   width: 50%;
   border: 2px solid #eae3d2;
   padding: 6px;
+}
+
+@media only screen and (max-width: 900px) {
+  #menu-items.show {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

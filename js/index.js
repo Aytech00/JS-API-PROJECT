@@ -17,3 +17,17 @@ document.querySelector('#btn').addEventListener('click', ()=>{
 
 
 
+// Nav toggle
+
+ const items = document.getElementById('menu-items');
+ caches
+
+ document.querySelector('#icon').addEventListener('click', ()=>{
+
+ items.classList.toggle('show');
+
+
+
+ })
+
+
