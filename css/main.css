@@ -16,6 +16,11 @@
   background-color: #607eaa;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 900px) {
+  .body-background nav {
+    padding: 3% 1%;
+  }
+}
 .body-background nav div .text-logo {
   text-decoration: none;
   font-size: 35px;

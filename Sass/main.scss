@@ -32,6 +32,10 @@ $Extra: #FA2FB5;
     background-color: $secondary-color;
     flex-wrap: wrap;
 
+    @include mediaquery(phone){
+      padding: 3% 1%;
+    }
+
     div{
 
     .text-logo{
