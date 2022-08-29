@@ -18,7 +18,7 @@
 }
 @media only screen and (max-width: 900px) {
   .body-background nav {
-    padding: 3% 1%;
+    padding: 4% 3%;
   }
 }
 .body-background nav div .text-logo {
@@ -96,10 +96,11 @@
 .body-background .container .btn-container #btn {
   text-align: center;
   padding: 5px 15px;
-  background-color: #607eaa;
   color: #eae3d2;
   border-radius: 10px;
   font-size: 20px;
+  border: 1px solid;
+  background-color: #607eaa;
 }
 .body-background .container div .result-placeholder {
   text-align: center;
