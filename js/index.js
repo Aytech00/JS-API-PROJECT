@@ -1,6 +1,13 @@
 document.querySelector('#btn').addEventListener('click', ()=>{
 
-    fetch('https://api.nasa.gov/planetary/apod?api_key=ClcgnaggHkojs8LqMbe0hc4rLq8CIgmKiwq4bZnU')
+  const searches = document.querySelector('#Search').value
+
+ console.log(searches);
+  const url = `https://api.nasa.gov/planetary/apod?api_key=CJaKHouXUHoAO1S4lciOz2lW3UfIvIouTC4fFmah&date=${searches}`
+
+ 
+
+  fetch(url)
   .then((res) => res.json()) // parse response as JSON
   .then((data) => {
     console.log(data);

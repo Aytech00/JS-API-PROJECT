@@ -89,6 +89,14 @@
   color: #eae3d2;
   margin-bottom: 5%;
 }
+.body-background .container .search_container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.body-background .container .search_container #Search {
+  width: 50%;
+  padding: 1%;
+}
 .body-background .container .btn-container {
   text-align: center;
   margin-bottom: 5%;
