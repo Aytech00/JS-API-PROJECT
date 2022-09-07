@@ -14,7 +14,7 @@ document.querySelector('#btn').addEventListener('click', ()=>{
 
     document.querySelector('#result-title').innerHTML = data.title
     document.querySelector('#result').innerText = data.explanation
-    document.querySelector('img').src = data.hdurl
+    document.querySelector('#result-image').src = data.hdurl
     
   })
   .catch((err) => {
@@ -24,7 +24,9 @@ document.querySelector('#btn').addEventListener('click', ()=>{
 
 
 
-// Nav toggle
+
+
+// Harmbugger for mobile
 
  const items = document.getElementById('menu-items');
 
@@ -35,6 +37,32 @@ document.querySelector('#btn').addEventListener('click', ()=>{
 
 
 
+
  })
 
+
+
+
+
+//  Dark mode
+
+const darkMode = document.getElementById('sun')
+const body = document.getElementById('body-background')
+
+
+darkMode.addEventListener('click', ()=>{
+
+  body.classList.toggle('dark_theme')
+
+  if(body.classList.contains('dark_theme')){
+
+    darkMode.src = 'Svgs/icons8-moon-symbol-50.png'
+    
+  }else{
+    darkMode.src = 'Svgs/icons8-summer-symbol-50.png'
+  }
+    
+  
+
+})
 
