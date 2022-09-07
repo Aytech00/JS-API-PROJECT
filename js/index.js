@@ -59,7 +59,7 @@ darkMode.addEventListener('click', ()=>{
     darkMode.src = 'Svgs/icons8-moon-symbol-50.png'
     
   }else{
-    darkMode.src = 'Svgs/icons8-summer-symbol-50.png'
+    darkMode.src = 'Svgs/icons8-summer-50.png'
   }
     
   
