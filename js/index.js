@@ -47,7 +47,7 @@ document.querySelector('#btn').addEventListener('click', ()=>{
 //  Dark mode
 
 const darkMode = document.getElementById('sun')
-const body = document.getElementById('body-background')
+const body = document.querySelector('body')
 
 
 darkMode.addEventListener('click', ()=>{
